@@ -87,23 +87,13 @@ export const testimonials: Testimonial[] = [
 
 export const caseStudies: CaseStudy[] = [
     {
-        client: 'Financium Accounting',
-        problem: 'The team was spending over 20 hours per week manually entering data from client receipts and invoices into their accounting software. This was time-consuming, prone to errors, and created a significant bottleneck during tax season.',
-        solution: 'We implemented our Intelligent Document Processing solution to automatically scan, digitize, and extract key information from all incoming documents. The structured data was then fed directly into their existing accounting software via a custom API integration.',
+        client: 'Road Tanker Northern (RTN) Ltd.',
+        problem: 'RTN was managing complex operations through disparate Excel spreadsheets, leading to critical information silos between departments. Tracking the real-time status of an order was a manual, inefficient process, requiring management to chase down updates from multiple sources, which caused delays and communication breakdowns.',
+        solution: 'We developed a custom, centralized application to act as a single source of truth. The system features a unified database, a real-time dashboard for at-a-glance order tracking, and integrated document management, ensuring all departments work from the same live data.',
         results: [
-            { metric: 'Invoice Processing Time', value: 'Reduced by 80%' },
-            { metric: 'Data Entry Errors', value: 'Eliminated by 99%' },
-            { metric: 'Staff Time Freed Up', value: '15+ Hours/Week' }
-        ]
-    },
-    {
-        client: 'BuildRight Contractors',
-        problem: 'Managing project approvals across multiple sites was a logistical nightmare involving endless email chains and lost paperwork. Delays in approvals were directly impacting project timelines and increasing costs.',
-        solution: 'Aether AI designed a custom Automated Workflow solution accessible via a mobile app. Foremen could submit approval requests with photos, which were then automatically routed to the correct project manager. All stakeholders had real-time visibility into the status of each request.',
-        results: [
-            { metric: 'Approval Turnaround Time', value: 'Reduced from 3 days to 4 hours' },
-            { metric: 'Project Delays due to Paperwork', value: 'Decreased by 60%' },
-            { metric: 'Administrative Overhead', value: 'Reduced by 25%' }
+            { metric: 'Order Visibility', value: '100% Real-Time' },
+            { metric: 'Manual Reporting', value: 'Reduced by 70%' },
+            { metric: 'Data Silos', value: 'Eliminated' }
         ]
     }
 ];
